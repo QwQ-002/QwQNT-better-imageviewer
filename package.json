@@ -1,0 +1,26 @@
+{
+  "$schema": "./plugin.schema.json",
+  "name": "better-imageviewer",
+  "description": "更好的图片查看器",
+  "version": "0.0.1",
+  "main": "./src/empty.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  },
+  "authors": [
+    {
+      "name": "曦月",
+      "link": "https://github.com/xiyuesaves"
+    }
+  ],
+  "type": "commonjs",
+  "qwqnt": {
+    "name": "更好的图片查看器",
+    "inject": {
+      "renderer": "./dist/main.js"
+    }
+  },
+  "dependencies": {
+    "esbuild": "^0.25.8"
+  }
+}

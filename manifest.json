@@ -1,0 +1,18 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "betterImageViewer",
+  "slug": "betterImageViewer",
+  "description": "更好的图片查看器",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "曦月",
+      "link": "https://github.com/xiyuesaves"
+    }
+  ],
+  "platform": ["win32", "linux", "darwin"],
+  "injects": {
+    "renderer": "./dist/main.js"
+  }
+}
