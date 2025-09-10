@@ -2,7 +2,7 @@
   "$schema": "./plugin.schema.json",
   "name": "better-imageviewer",
   "description": "更好的图片查看器",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./src/empty.js",
   "scripts": {
     "build": "node esbuild.config.mjs"
